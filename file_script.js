@@ -1,14 +1,14 @@
 /*let a = 2;
 let b = 3;
-let sum = a + b;*/
+let sum = a + b;
 
 console.log(sum);
-
+*/
 function Student(name, marks,age) {
     return {
         name: name,
         marks: marks, 
-        age;age,
+        age:age,
         total: function() {
             let sum = 0;
             for (let mark of this.marks) {
