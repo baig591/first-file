@@ -1,13 +1,14 @@
-let a = 2;
+/*let a = 2;
 let b = 3;
-let sum = a + b;
+let sum = a + b;*/
 
 console.log(sum);
 
-function createStudent(name, marks) {
+function Student(name, marks,age) {
     return {
         name: name,
         marks: marks, 
+        age;age,
         total: function() {
             let sum = 0;
             for (let mark of this.marks) {
@@ -25,8 +26,8 @@ function createStudent(name, marks) {
 }
 
 
-let student1 = createStudent("Alice", [45, 78, 82]);
-let student2 = createStudent("Bob", [25, 55, 60]);
+let student1 = Student("Ali", [45, 78, 82]);
+let student2 = Student("ahad", [25, 55, 60]);
 
 
 console.log(`Student: ${student1.name}`);
